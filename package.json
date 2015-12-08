@@ -1,0 +1,29 @@
+{
+  "name": "coderhouse-blog-admin",
+  "version": "0.0.1",
+  "description": "Admin del coderhouse blog",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lopezoscar/coderhouse-blog-admin"
+  },
+  "keywords": [
+    "Blog",
+    "admin",
+    "coderhouse"
+  ],
+  "author": "Oscar Lopez",
+  "license": "GNU",
+  "bugs": {
+    "url": "https://github.com/lopezoscar/coderhouse-blog-admin/issues"
+  },
+  "homepage": "https://github.com/lopezoscar/coderhouse-blog-admin",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "request": "^2.67.0"
+  }
+}
