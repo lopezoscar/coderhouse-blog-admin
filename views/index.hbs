@@ -1,0 +1,38 @@
+<div class="box">
+    <div class="box-header">
+        <h3 class="box-title">Posts</h3>
+    </div><!-- /.box-header -->
+    <div class="box-body">
+        <table id="example2" class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Post</th>
+                    <th>Blog</th>
+                    <th>Category</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!--{{#each posts}}-->
+                    <tr>
+                        <td>{{@index}}</td>
+                        <td>{{title}}</td>
+                        <td>{{blog}}+</td>
+                        <td>{{category}}</td>
+                        <td><a href="/edit/{{blog}}/{{link}}" class="btn btn-md btn-primary">Edit Post</a></td>
+                    </tr>
+                <!--{{/each}}-->
+            </tbody>
+                <tfoot>
+                <tr>
+                    <th>#</th>
+                    <th>Post</th>
+                    <th>Blog</th>
+                    <th>Category</th>
+                    <th>Actions</th>
+                </tr>
+            </tfoot>
+        </table>
+    </div><!-- /.box-body -->
+</div><!-- /.box -->
